@@ -1,0 +1,16 @@
+
+PS C:\>  Move-Item C:\FolderTest2\file7 -Destination .\OddFolder\
+
+PS C:\>  Move-Item C:\FolderTest2\file9 -Destination .\OddFolder\
+
+PS C:\>  Move-Item C:\FolderTest1\file2 -Destination .\EvenFolder\
+
+PS C:\>  Move-Item C:\FolderTest1\file4 -Destination .\EvenFolder\
+
+PS C:\>  Move-Item C:\FolderTest2\file6 -Destination .\EvenFolder\
+
+PS C:\>  Move-Item C:\FolderTest2\file8 -Destination .\EvenFolder\
+
+PS C:\>  Move-Item C:\FolderTest2\file10 -Destination .\EvenFolder\
+
+PS C:\> Get-ChildItem EvenFolder
